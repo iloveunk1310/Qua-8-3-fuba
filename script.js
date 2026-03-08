@@ -2,9 +2,8 @@
 // 🎵 MUSIC
 // =============================
 const playlist = [
-  { title: 'Cô gái này là của ai', src: 'music/bai1.mp3' },
+  { title: 'Là con gái thật tuyệt', src: 'music/bai1.m4a' },
   { title: 'PHONECERT', src: 'music/bai2.mp3' },
-  { title: 'Anh là của em', src: 'music/bai3.mp3' },
 ];
 
 let currentAudio = null;
@@ -44,7 +43,7 @@ function openMusicModal() {
 // =============================
 function openLetterModal() {
   const lines = [
-    '8/3 chúc Fuba có 1 ngày vui vẻ và đăng nhiều ảnh răm 💌',
+    '8/3 chúc bạn lun vui vẻ và xinh đẹp 💌',
   ];
 
   const html = `
@@ -67,7 +66,6 @@ function openLetterModal() {
 const gallery = [
   'images/anh1.jpg',
   'images/anh2.jpg',
-  'images/anh3.jpg',
 ];
 
 let galleryIndex = 0;
@@ -119,7 +117,7 @@ function openGiftModal() {
 
 function openGift() {
   
-  const surprise = 'Chúc fuba luôn mãi xinh đẹp và hạnh phúc! 🌸✨💕';
+  const surprise = 'Chúc bạn luôn mãi xinh đẹp, mạnh khỏe và hạnh phúc! 🌸✨💕';
 
   document.getElementById('giftBox').innerHTML = `
     <div class="gift-open">
